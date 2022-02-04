@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  flex-grow: 0;
+}
+
+.conversation,
+.contact {
+  height: 100vh;
+
+  /* to make it take the width space left */
+  flex-grow: 100;
+}

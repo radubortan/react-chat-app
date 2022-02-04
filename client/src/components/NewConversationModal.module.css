@@ -1,0 +1,56 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.form {
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.closeButton {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.label {
+  font-size: 1.7rem;
+  margin-left: 20px;
+}
+
+.label:hover,
+.checkbox:hover {
+  cursor: pointer;
+}
+
+.createButton {
+  background-color: #007bff;
+  border: none;
+  margin-top: 20px;
+}
+
+.createButton:hover {
+  color: white;
+  background-color: #026bdb;
+}

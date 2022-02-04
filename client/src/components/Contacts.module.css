@@ -1,0 +1,20 @@
+.contact {
+  border-bottom: 1px solid rgb(194, 194, 194);
+  padding: 10px 15px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  transition: background-color 200ms;
+  display: flex;
+  align-items: center;
+}
+
+.contact:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #007bff;
+}

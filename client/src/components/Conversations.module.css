@@ -1,0 +1,36 @@
+.conversation {
+  border-bottom: 1px solid rgb(194, 194, 194);
+  padding: 10px 15px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  transition: background-color 200ms;
+  display: flex;
+  align-items: center;
+}
+
+.conversation:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+.icon {
+  margin-right: 10px;
+  color: inherit;
+  color: #007bff;
+}
+
+.activeIcon {
+  color: white;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0s;
+}
+
+.active:hover {
+  background-color: #007bff;
+  transition: background-color 00ms;
+}

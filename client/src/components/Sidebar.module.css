@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid rgb(194, 194, 194);
+}
+
+.newButton {
+  border-radius: 0;
+  background-color: #007bff;
+  border: none;
+}
+
+.newButton:hover {
+  color: white;
+  background-color: #026bdb;
+}
+
+.bottomContainer {
+  border-top: 1px solid rgb(194, 194, 194);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.idTitle {
+  font-size: 0.9rem;
+  color: #007bff;
+}
+
+.id {
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.logoutButton {
+  background-color: #d62335;
+  margin-left: 10px;
+  border: none;
+}
+
+.logoutButton:hover {
+  background-color: rgb(158, 1, 1);
+}

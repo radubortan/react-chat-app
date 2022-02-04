@@ -1,0 +1,79 @@
+.container {
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  padding-left: 10px;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.input {
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 194, 194);
+  transition: background-color 300ms;
+}
+
+.input:focus {
+  outline: none;
+  background-color: rgb(240, 240, 240);
+  transition: background-color 300ms;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+
+.createButton {
+  margin-left: 10px;
+  border: none;
+  background-color: #007bff;
+}
+
+.createButton:hover {
+  background-color: #026bdb;
+  border-color: #026bdb;
+}
+
+.loginButton {
+  border: none;
+}
+
+.loginButton:hover {
+  background-color: #1f8035;
+  border-color: #1f8035;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+}
